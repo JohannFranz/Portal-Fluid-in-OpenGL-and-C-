@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\helper">
+      <UniqueIdentifier>{45b6e953-349c-4542-b6c9-e156320c7046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\helper">
+      <UniqueIdentifier>{3dbdc7ec-36a2-4b34-b485-9a81ba85ecdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Objects">
+      <UniqueIdentifier>{184b5ced-6351-47d8-a835-be6c2b8ffa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Objects\Shader">
+      <UniqueIdentifier>{d31a8570-d681-4a38-a5a1-f3de06c47468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Objects\Meshes">
+      <UniqueIdentifier>{16ace5d2-5909-44f8-8b77-be04ccbfe114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Objects">
+      <UniqueIdentifier>{4fa73bbc-addf-4670-80df-0e57bcb18397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Objects\Shader">
+      <UniqueIdentifier>{438f1013-3ceb-4b26-b299-3d5cfee80164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Objects\Meshes">
+      <UniqueIdentifier>{5b5b381f-0fd9-4b07-9829-9716dd78b46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Camera">
+      <UniqueIdentifier>{4281998a-8673-4839-87b1-6a3909c09eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Camera">
+      <UniqueIdentifier>{a6a6c643-0ff2-4d8e-85d1-6d4dfd276041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Particle">
+      <UniqueIdentifier>{6927bd07-3da1-4db7-b591-11ef229a8556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Particle">
+      <UniqueIdentifier>{86f1fbc1-f19b-4326-820a-93346321b3f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IOManager.cpp">
+      <Filter>Quelldateien\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Quelldateien\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Quelldateien\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="validator.cpp">
+      <Filter>Quelldateien\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleMesh.cpp">
+      <Filter>Quelldateien\Objects\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleShader.cpp">
+      <Filter>Quelldateien\Objects\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleObject.cpp">
+      <Filter>Quelldateien\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationController.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Quelldateien\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Quelldateien\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Quelldateien\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorMesh.cpp">
+      <Filter>Quelldateien\Objects\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorShader.cpp">
+      <Filter>Quelldateien\Objects\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Particleemitter.cpp">
+      <Filter>Quelldateien\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Quelldateien\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Quelldateien\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Particlerenderer.cpp">
+      <Filter>Quelldateien\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="PointShader.cpp">
+      <Filter>Quelldateien\Objects\Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.fsh">
+      <Filter>Quelldateien\Objects\Shader</Filter>
+    </None>
+    <None Include="vertexShader.vsh">
+      <Filter>Quelldateien\Objects\Shader</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="validator.h">
+      <Filter>Headerdateien\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Headerdateien\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Headerdateien\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>Headerdateien\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMesh.h">
+      <Filter>Headerdateien\Objects\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleShader.h">
+      <Filter>Headerdateien\Objects\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleObject.h">
+      <Filter>Headerdateien\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationController.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Headerdateien\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Headerdateien\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Headerdateien\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorShader.h">
+      <Filter>Headerdateien\Objects\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorMesh.h">
+      <Filter>Headerdateien\Objects\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Particleemitter.h">
+      <Filter>Headerdateien\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Headerdateien\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Particlerenderer.h">
+      <Filter>Headerdateien\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Headerdateien\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="PointShader.h">
+      <Filter>Headerdateien\Objects\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
